@@ -47,13 +47,19 @@ export function TodoInput({ onAdd }: TodoInputProps) {
     };
   }, []);
 
-  const toggleListening = () => {
+  const toggleListening = async () => {
     if (!recognitionRef.current) return;
 
     if (isListening) {
       recognitionRef.current.stop();
       setIsListening(false);
     } else {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        stream.getTracks().forEach((t) => t.stop());
+      } catch {
+        return;
+      }
       recognitionRef.current.start();
       setIsListening(true);
     }
