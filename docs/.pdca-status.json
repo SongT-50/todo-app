@@ -1,11 +1,25 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-02-06T07:29:30.829Z",
+  "lastUpdated": "2026-02-06T08:23:51.685Z",
   "activeFeatures": [
+    "public",
     "new_test"
   ],
-  "primaryFeature": "new_test",
+  "primaryFeature": "public",
   "features": {
+    "public": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-06T08:23:30.974Z",
+        "lastUpdated": "2026-02-06T08:23:30.974Z"
+      },
+      "lastFile": "C:\\Users\\samsung\\2026\\01\\new_test\\public\\sw.js"
+    },
     "new_test": {
       "phase": "do",
       "phaseNumber": 3,
@@ -14,10 +28,10 @@
       "requirements": [],
       "documents": {},
       "timestamps": {
-        "started": "2026-02-06T06:42:02.384Z",
-        "lastUpdated": "2026-02-06T07:29:30.829Z"
+        "started": "2026-02-06T08:23:42.293Z",
+        "lastUpdated": "2026-02-06T08:23:51.685Z"
       },
-      "lastFile": "C:\\Users\\samsung\\2026\\01\\new_test\\src\\components\\TodoInput.tsx"
+      "lastFile": "C:\\Users\\samsung\\2026\\01\\new_test\\next.config.ts"
     }
   },
   "pipeline": {
@@ -28,113 +42,43 @@
   "session": {
     "startedAt": "2026-02-06T05:35:55.895Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-02-06T07:29:30.829Z"
+    "lastActivity": "2026-02-06T08:23:51.685Z"
   },
   "history": [
     {
-      "timestamp": "2026-02-06T06:42:02.384Z",
+      "timestamp": "2026-02-06T08:15:00.000Z",
+      "feature": "todo-app-v2",
+      "phase": "check",
+      "action": "gap-analysis-completed",
+      "matchRate": 100
+    },
+    {
+      "timestamp": "2026-02-06T08:20:00.000Z",
+      "feature": "todo-app-v2",
+      "phase": "completed",
+      "action": "report-generated"
+    },
+    {
+      "timestamp": "2026-02-06T08:25:00.000Z",
+      "feature": "todo-app-v2",
+      "phase": "archived",
+      "action": "archived",
+      "archivedTo": "docs/archive/2026-02/todo-app-v2/"
+    },
+    {
+      "timestamp": "2026-02-06T08:23:30.974Z",
+      "feature": "public",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-06T08:23:42.294Z",
       "feature": "new_test",
       "phase": "do",
       "action": "updated"
     },
     {
-      "timestamp": "2026-02-06T06:42:29.544Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:43:27.131Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:43:50.508Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:44:11.066Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:44:28.194Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:44:41.484Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T06:44:42.737Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:25:36.961Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:25:38.385Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:25:39.815Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:25:45.809Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:27:11.316Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:27:18.795Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:27:29.181Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:28:24.443Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:29:03.157Z",
-      "feature": "new_test",
-      "phase": "do",
-      "action": "updated"
-    },
-    {
-      "timestamp": "2026-02-06T07:29:30.829Z",
+      "timestamp": "2026-02-06T08:23:51.685Z",
       "feature": "new_test",
       "phase": "do",
       "action": "updated"
